@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+
+body{
+  
+ 
+    background-image: url("images/2.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+
+.overay{
+   
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 10px 0 10px 0px;
+    text-shadow: 0 0 5px  #000000ca;
+}
+
+header{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px 0 10px 0px;
+    text-shadow: 0 0 5px  #000000ca;
+}
+
+.inputs{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+.input{
+   height: 50px;
+   width: 330px;
+   border-radius: 30px;
+   border: none;
+   outline: none;
+   color: #fff;
+   margin: 10px;
+   padding: 0 0 0 45px;
+   font-size: 15px;
+
+   background-color: #0d19318c
+}
+
+
+i{
+    position: relative;
+    top: -44px;
+    left: 24px;
+    color: #fff;
+}
+
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+    outline: none;
+    height: 45px;
+    width: 372px;
+    color: rgb(252, 251, 251);
+    background:#0d19318c;
+    cursor: pointer;
+    transition: .3s ;
+    position: relative;
+    left: 10px;
+}
+
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+ }
+.two-col{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+    width: 372px;
+    padding-left: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+p{
+    text-align: center;
+    color: #ffffffa9;
+}
